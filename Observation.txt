@@ -1,0 +1,11 @@
+Problems we noticed with the files data 
+1. We noticed that accuracy accross models in research papers we have read have been less accurate 
+on the damage serverity classification section. we believe this is because they use less data as well as only image data
+we also saw that in the humanaritarin category they had muiltimodal data on vechile and infastracture damage we beileve if we 
+use those data sets in the damage classification it may help improve the accuracy.
+
+2.We also noticed that there was duplciate image data in the data set as well this included 43, 45. we may be able to get muiltiple this could be due to 
+messages using the other posts images or refrenceing another post as in a reply if there is a way to get rid of duplicate data it could help the dataset.
+
+
+
