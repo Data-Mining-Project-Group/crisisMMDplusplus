@@ -1,0 +1,5 @@
+Model Config,Δ Accuracy,Δ Weighted F1,Δ Macro F1
+A — Baseline,0.2675,0.2608,0.0015
+B — Larger Model,0.1711,0.2161,-0.0307
+C — Unfrozen Backbone,0.2747,0.2655,-0.0163
+D — Larger + Unfrozen,0.2988,0.2834,0.0783

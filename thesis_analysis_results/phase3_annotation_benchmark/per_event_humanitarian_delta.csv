@@ -1,0 +1,5 @@
+Event,A — Baseline,B — Larger Model,C — Unfrozen Backbone,D — Larger + Unfrozen
+california_wildfires,-0.3334,0.3333,-0.3334,-0.1667
+hurricane_harvey,-0.1428,0.1905,-0.1905,-0.0476
+hurricane_irma,0.1667,0.1389,0.1667,0.0277
+hurricane_maria,0.1538,0.1923,0.0,-0.0385

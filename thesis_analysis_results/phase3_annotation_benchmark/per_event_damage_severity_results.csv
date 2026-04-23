@@ -1,0 +1,33 @@
+Event,Annotation Set,Model Config,n_test,test_accuracy,test_wF1,test_mF1
+california_wildfires,Old Annotations (image_damage),A — Baseline,40,0.65,0.65,0.2031
+hurricane_harvey,Old Annotations (image_damage),A — Baseline,113,0.5575,0.5737,0.3998
+hurricane_irma,Old Annotations (image_damage),A — Baseline,121,0.4876,0.5073,0.4097
+hurricane_maria,Old Annotations (image_damage),A — Baseline,140,0.5143,0.5201,0.4003
+california_wildfires,Old Annotations (image_damage),B — Larger Model,40,0.75,0.7199,0.2757
+hurricane_harvey,Old Annotations (image_damage),B — Larger Model,113,0.5044,0.516,0.3285
+hurricane_irma,Old Annotations (image_damage),B — Larger Model,121,0.4711,0.4687,0.39
+hurricane_maria,Old Annotations (image_damage),B — Larger Model,140,0.5214,0.53,0.471
+california_wildfires,Old Annotations (image_damage),C — Unfrozen Backbone,40,0.825,0.8044,0.3529
+hurricane_harvey,Old Annotations (image_damage),C — Unfrozen Backbone,113,0.6106,0.6183,0.5423
+hurricane_irma,Old Annotations (image_damage),C — Unfrozen Backbone,121,0.4793,0.4838,0.4176
+hurricane_maria,Old Annotations (image_damage),C — Unfrozen Backbone,140,0.5,0.5046,0.373
+california_wildfires,Old Annotations (image_damage),D — Larger + Unfrozen,40,0.775,0.7525,0.3164
+hurricane_harvey,Old Annotations (image_damage),D — Larger + Unfrozen,113,0.5841,0.5863,0.4398
+hurricane_irma,Old Annotations (image_damage),D — Larger + Unfrozen,121,0.4628,0.4689,0.351
+hurricane_maria,Old Annotations (image_damage),D — Larger + Unfrozen,140,0.5143,0.5202,0.3283
+california_wildfires,New Annotations (image_damage_llm),A — Baseline,40,0.95,0.9744,0.3248
+hurricane_harvey,New Annotations (image_damage_llm),A — Baseline,113,0.823,0.8387,0.4042
+hurricane_irma,New Annotations (image_damage_llm),A — Baseline,121,0.7107,0.7261,0.4558
+hurricane_maria,New Annotations (image_damage_llm),A — Baseline,140,0.8143,0.8054,0.2855
+california_wildfires,New Annotations (image_damage_llm),B — Larger Model,40,0.85,0.9189,0.2297
+hurricane_harvey,New Annotations (image_damage_llm),B — Larger Model,113,0.6991,0.7604,0.384
+hurricane_irma,New Annotations (image_damage_llm),B — Larger Model,121,0.6281,0.6669,0.4328
+hurricane_maria,New Annotations (image_damage_llm),B — Larger Model,140,0.7071,0.7542,0.3243
+california_wildfires,New Annotations (image_damage_llm),C — Unfrozen Backbone,40,0.975,0.9873,0.4937
+hurricane_harvey,New Annotations (image_damage_llm),C — Unfrozen Backbone,113,0.8496,0.8485,0.452
+hurricane_irma,New Annotations (image_damage_llm),C — Unfrozen Backbone,121,0.7686,0.765,0.5079
+hurricane_maria,New Annotations (image_damage_llm),C — Unfrozen Backbone,140,0.8286,0.8163,0.2887
+california_wildfires,New Annotations (image_damage_llm),D — Larger + Unfrozen,40,1.0,1.0,1.0
+hurricane_harvey,New Annotations (image_damage_llm),D — Larger + Unfrozen,113,0.885,0.8772,0.5425
+hurricane_irma,New Annotations (image_damage_llm),D — Larger + Unfrozen,121,0.7521,0.7429,0.4975
+hurricane_maria,New Annotations (image_damage_llm),D — Larger + Unfrozen,140,0.8429,0.8296,0.3152

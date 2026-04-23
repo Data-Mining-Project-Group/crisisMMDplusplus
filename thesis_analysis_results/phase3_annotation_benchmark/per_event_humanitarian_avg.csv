@@ -1,0 +1,9 @@
+Event,Annotation Set,test_accuracy,test_wF1,test_mF1
+california_wildfires,New Annotations (text_llm),0.375,0.3631,0.1448
+california_wildfires,Old Annotations (text_human),0.5,0.4945,0.3244
+hurricane_harvey,New Annotations (text_llm),0.4167,0.3994,0.3398
+hurricane_harvey,Old Annotations (text_human),0.4643,0.4362,0.3133
+hurricane_irma,New Annotations (text_llm),0.5139,0.5106,0.4246
+hurricane_irma,Old Annotations (text_human),0.3889,0.3834,0.3134
+hurricane_maria,New Annotations (text_llm),0.5866,0.5801,0.5943
+hurricane_maria,Old Annotations (text_human),0.5096,0.5146,0.3942
