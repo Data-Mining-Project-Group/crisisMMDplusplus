@@ -1,9 +1,15 @@
 Event,Annotation Set,test_accuracy,test_wF1,test_mF1
-california_wildfires,New Annotations (image_damage_llm),0.9438,0.9702,0.512
-california_wildfires,Old Annotations (image_damage),0.75,0.7317,0.287
-hurricane_harvey,New Annotations (image_damage_llm),0.8142,0.8312,0.4457
-hurricane_harvey,Old Annotations (image_damage),0.5641,0.5736,0.4276
-hurricane_irma,New Annotations (image_damage_llm),0.7149,0.7252,0.4735
-hurricane_irma,Old Annotations (image_damage),0.4752,0.4822,0.3921
-hurricane_maria,New Annotations (image_damage_llm),0.7982,0.8014,0.3034
-hurricane_maria,Old Annotations (image_damage),0.5125,0.5187,0.3932
+california_wildfires,New Annotations (image_damage_llm),0.9086,0.929,0.2805
+california_wildfires,Old Annotations (image_damage),0.6855,0.7162,0.2685
+hurricane_harvey,New Annotations (image_damage_llm),0.7969,0.8066,0.2831
+hurricane_harvey,Old Annotations (image_damage),0.6387,0.6475,0.4348
+hurricane_irma,New Annotations (image_damage_llm),0.668,0.673,0.4218
+hurricane_irma,Old Annotations (image_damage),0.5859,0.5889,0.5184
+hurricane_maria,New Annotations (image_damage_llm),0.7685,0.7698,0.3022
+hurricane_maria,Old Annotations (image_damage),0.541,0.5492,0.4258
+iraq_iran_earthquake,New Annotations (image_damage_llm),0.9569,0.9442,0.4889
+iraq_iran_earthquake,Old Annotations (image_damage),0.8707,0.8598,0.4402
+mexico_earthquake,New Annotations (image_damage_llm),0.92,0.9581,0.4001
+mexico_earthquake,Old Annotations (image_damage),0.66,0.6859,0.392
+srilanka_floods,New Annotations (image_damage_llm),0.5,0.4511,0.2203
+srilanka_floods,Old Annotations (image_damage),0.353,0.3707,0.197

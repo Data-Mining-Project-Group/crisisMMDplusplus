@@ -1,9 +1,15 @@
 Event,Annotation Set,test_accuracy,test_wF1,test_mF1
-california_wildfires,New Annotations (text_llm),0.375,0.3631,0.1448
-california_wildfires,Old Annotations (text_human),0.5,0.4945,0.3244
-hurricane_harvey,New Annotations (text_llm),0.4167,0.3994,0.3398
-hurricane_harvey,Old Annotations (text_human),0.4643,0.4362,0.3133
-hurricane_irma,New Annotations (text_llm),0.5139,0.5106,0.4246
-hurricane_irma,Old Annotations (text_human),0.3889,0.3834,0.3134
-hurricane_maria,New Annotations (text_llm),0.5866,0.5801,0.5943
-hurricane_maria,Old Annotations (text_human),0.5096,0.5146,0.3942
+california_wildfires,New Annotations (text_llm),0.5864,0.6004,0.5464
+california_wildfires,Old Annotations (text_human),0.5691,0.562,0.4672
+hurricane_harvey,New Annotations (text_llm),0.6404,0.6438,0.5472
+hurricane_harvey,Old Annotations (text_human),0.637,0.6364,0.4889
+hurricane_irma,New Annotations (text_llm),0.6213,0.6319,0.42
+hurricane_irma,Old Annotations (text_human),0.6086,0.6124,0.4386
+hurricane_maria,New Annotations (text_llm),0.6696,0.6764,0.4657
+hurricane_maria,Old Annotations (text_human),0.6822,0.6839,0.4389
+iraq_iran_earthquake,New Annotations (text_llm),0.5951,0.6008,0.5053
+iraq_iran_earthquake,Old Annotations (text_human),0.6386,0.6339,0.5248
+mexico_earthquake,New Annotations (text_llm),0.6157,0.636,0.5195
+mexico_earthquake,Old Annotations (text_human),0.5918,0.5849,0.483
+srilanka_floods,New Annotations (text_llm),0.6814,0.6832,0.4268
+srilanka_floods,Old Annotations (text_human),0.8171,0.8298,0.4566

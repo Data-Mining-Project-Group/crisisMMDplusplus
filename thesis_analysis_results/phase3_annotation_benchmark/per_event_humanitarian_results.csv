@@ -1,33 +1,57 @@
 Event,Annotation Set,Model Config,n_test,test_accuracy,test_wF1,test_mF1
-california_wildfires,Old Annotations (text_human),A — Baseline,6,0.6667,0.6556,0.4933
-hurricane_harvey,Old Annotations (text_human),A — Baseline,21,0.5238,0.5239,0.4988
-hurricane_irma,Old Annotations (text_human),A — Baseline,36,0.3611,0.365,0.2881
-hurricane_maria,Old Annotations (text_human),A — Baseline,26,0.5385,0.5483,0.4205
-california_wildfires,Old Annotations (text_human),B — Larger Model,6,0.1667,0.1667,0.0833
-hurricane_harvey,Old Annotations (text_human),B — Larger Model,21,0.2857,0.2679,0.1802
-hurricane_irma,Old Annotations (text_human),B — Larger Model,36,0.4444,0.4426,0.3133
-hurricane_maria,Old Annotations (text_human),B — Larger Model,26,0.5385,0.5717,0.4367
-california_wildfires,Old Annotations (text_human),C — Unfrozen Backbone,6,0.6667,0.6,0.36
-hurricane_harvey,Old Annotations (text_human),C — Unfrozen Backbone,21,0.5238,0.4768,0.2861
-hurricane_irma,Old Annotations (text_human),C — Unfrozen Backbone,36,0.3333,0.3234,0.2948
-hurricane_maria,Old Annotations (text_human),C — Unfrozen Backbone,26,0.4231,0.4086,0.3141
-california_wildfires,Old Annotations (text_human),D — Larger + Unfrozen,6,0.5,0.5556,0.3611
-hurricane_harvey,Old Annotations (text_human),D — Larger + Unfrozen,21,0.5238,0.4762,0.288
-hurricane_irma,Old Annotations (text_human),D — Larger + Unfrozen,36,0.4167,0.4028,0.3574
-hurricane_maria,Old Annotations (text_human),D — Larger + Unfrozen,26,0.5385,0.5299,0.4056
-california_wildfires,New Annotations (text_llm),A — Baseline,6,0.3333,0.3333,0.1111
-hurricane_harvey,New Annotations (text_llm),A — Baseline,21,0.381,0.3691,0.2899
-hurricane_irma,New Annotations (text_llm),A — Baseline,36,0.5278,0.5278,0.4471
-hurricane_maria,New Annotations (text_llm),A — Baseline,26,0.6923,0.6918,0.7074
-california_wildfires,New Annotations (text_llm),B — Larger Model,6,0.5,0.5,0.2778
-hurricane_harvey,New Annotations (text_llm),B — Larger Model,21,0.4762,0.5121,0.3925
-hurricane_irma,New Annotations (text_llm),B — Larger Model,36,0.5833,0.583,0.6062
-hurricane_maria,New Annotations (text_llm),B — Larger Model,26,0.7308,0.7235,0.7037
-california_wildfires,New Annotations (text_llm),C — Unfrozen Backbone,6,0.3333,0.2857,0.0952
-hurricane_harvey,New Annotations (text_llm),C — Unfrozen Backbone,21,0.3333,0.284,0.2726
-hurricane_irma,New Annotations (text_llm),C — Unfrozen Backbone,36,0.5,0.4874,0.3349
-hurricane_maria,New Annotations (text_llm),C — Unfrozen Backbone,26,0.4231,0.4156,0.4508
-california_wildfires,New Annotations (text_llm),D — Larger + Unfrozen,6,0.3333,0.3333,0.0952
-hurricane_harvey,New Annotations (text_llm),D — Larger + Unfrozen,21,0.4762,0.4322,0.4041
-hurricane_irma,New Annotations (text_llm),D — Larger + Unfrozen,36,0.4444,0.4441,0.3104
-hurricane_maria,New Annotations (text_llm),D — Larger + Unfrozen,26,0.5,0.4895,0.5152
+california_wildfires,Old Annotations (text_human),A — Baseline,217,0.576,0.5694,0.5446
+hurricane_harvey,Old Annotations (text_human),A — Baseline,650,0.6462,0.6482,0.5363
+hurricane_irma,Old Annotations (text_human),A — Baseline,709,0.6446,0.6482,0.4414
+hurricane_maria,Old Annotations (text_human),A — Baseline,693,0.6898,0.6912,0.468
+iraq_iran_earthquake,Old Annotations (text_human),A — Baseline,92,0.5978,0.6018,0.4965
+mexico_earthquake,Old Annotations (text_human),A — Baseline,188,0.6277,0.6201,0.5635
+srilanka_floods,Old Annotations (text_human),A — Baseline,164,0.8415,0.8561,0.5072
+california_wildfires,Old Annotations (text_human),B — Larger Model,217,0.5714,0.5646,0.4774
+hurricane_harvey,Old Annotations (text_human),B — Larger Model,650,0.64,0.6411,0.4492
+hurricane_irma,Old Annotations (text_human),B — Larger Model,709,0.598,0.6103,0.4472
+hurricane_maria,Old Annotations (text_human),B — Larger Model,693,0.6825,0.6898,0.4386
+iraq_iran_earthquake,Old Annotations (text_human),B — Larger Model,92,0.6739,0.6767,0.5906
+mexico_earthquake,Old Annotations (text_human),B — Larger Model,188,0.5851,0.5875,0.54
+srilanka_floods,Old Annotations (text_human),B — Larger Model,164,0.7988,0.8182,0.4318
+california_wildfires,Old Annotations (text_human),C — Unfrozen Backbone,217,0.5806,0.5709,0.4033
+hurricane_harvey,Old Annotations (text_human),C — Unfrozen Backbone,650,0.6585,0.6539,0.5143
+hurricane_irma,Old Annotations (text_human),C — Unfrozen Backbone,709,0.6276,0.6268,0.4947
+hurricane_maria,Old Annotations (text_human),C — Unfrozen Backbone,693,0.6926,0.6904,0.4664
+iraq_iran_earthquake,Old Annotations (text_human),C — Unfrozen Backbone,92,0.663,0.6582,0.5599
+mexico_earthquake,Old Annotations (text_human),C — Unfrozen Backbone,188,0.5904,0.5832,0.4166
+srilanka_floods,Old Annotations (text_human),C — Unfrozen Backbone,164,0.8476,0.8538,0.4657
+california_wildfires,Old Annotations (text_human),D — Larger + Unfrozen,217,0.5484,0.5433,0.4437
+hurricane_harvey,Old Annotations (text_human),D — Larger + Unfrozen,650,0.6031,0.6022,0.4559
+hurricane_irma,Old Annotations (text_human),D — Larger + Unfrozen,709,0.5642,0.5643,0.3711
+hurricane_maria,Old Annotations (text_human),D — Larger + Unfrozen,693,0.6638,0.664,0.3827
+iraq_iran_earthquake,Old Annotations (text_human),D — Larger + Unfrozen,92,0.6196,0.5989,0.4523
+mexico_earthquake,Old Annotations (text_human),D — Larger + Unfrozen,188,0.5638,0.5488,0.4121
+srilanka_floods,Old Annotations (text_human),D — Larger + Unfrozen,164,0.7805,0.7909,0.4215
+california_wildfires,New Annotations (text_llm),A — Baseline,217,0.6175,0.6339,0.6273
+hurricane_harvey,New Annotations (text_llm),A — Baseline,650,0.6585,0.6602,0.5688
+hurricane_irma,New Annotations (text_llm),A — Baseline,709,0.6417,0.6556,0.4536
+hurricane_maria,New Annotations (text_llm),A — Baseline,693,0.6782,0.6845,0.5403
+iraq_iran_earthquake,New Annotations (text_llm),A — Baseline,92,0.5978,0.6029,0.5112
+mexico_earthquake,New Annotations (text_llm),A — Baseline,188,0.6596,0.6862,0.5685
+srilanka_floods,New Annotations (text_llm),A — Baseline,164,0.6768,0.6739,0.4458
+california_wildfires,New Annotations (text_llm),B — Larger Model,217,0.5945,0.6102,0.5626
+hurricane_harvey,New Annotations (text_llm),B — Larger Model,650,0.6569,0.6671,0.5876
+hurricane_irma,New Annotations (text_llm),B — Larger Model,709,0.6432,0.6549,0.4551
+hurricane_maria,New Annotations (text_llm),B — Larger Model,693,0.7013,0.7063,0.4313
+iraq_iran_earthquake,New Annotations (text_llm),B — Larger Model,92,0.663,0.6641,0.5456
+mexico_earthquake,New Annotations (text_llm),B — Larger Model,188,0.5851,0.6131,0.4993
+srilanka_floods,New Annotations (text_llm),B — Larger Model,164,0.6829,0.6924,0.4133
+california_wildfires,New Annotations (text_llm),C — Unfrozen Backbone,217,0.5899,0.5961,0.5146
+hurricane_harvey,New Annotations (text_llm),C — Unfrozen Backbone,650,0.6338,0.6299,0.5183
+hurricane_irma,New Annotations (text_llm),C — Unfrozen Backbone,709,0.6037,0.6125,0.3988
+hurricane_maria,New Annotations (text_llm),C — Unfrozen Backbone,693,0.6609,0.665,0.4406
+iraq_iran_earthquake,New Annotations (text_llm),C — Unfrozen Backbone,92,0.5761,0.5788,0.4917
+mexico_earthquake,New Annotations (text_llm),C — Unfrozen Backbone,188,0.633,0.6456,0.523
+srilanka_floods,New Annotations (text_llm),C — Unfrozen Backbone,164,0.6768,0.6737,0.3816
+california_wildfires,New Annotations (text_llm),D — Larger + Unfrozen,217,0.5438,0.5616,0.4812
+hurricane_harvey,New Annotations (text_llm),D — Larger + Unfrozen,650,0.6123,0.6181,0.5142
+hurricane_irma,New Annotations (text_llm),D — Larger + Unfrozen,709,0.5966,0.6047,0.3727
+hurricane_maria,New Annotations (text_llm),D — Larger + Unfrozen,693,0.6378,0.6498,0.4507
+iraq_iran_earthquake,New Annotations (text_llm),D — Larger + Unfrozen,92,0.5435,0.5572,0.4726
+mexico_earthquake,New Annotations (text_llm),D — Larger + Unfrozen,188,0.5851,0.5989,0.4871
+srilanka_floods,New Annotations (text_llm),D — Larger + Unfrozen,164,0.689,0.6929,0.4663
