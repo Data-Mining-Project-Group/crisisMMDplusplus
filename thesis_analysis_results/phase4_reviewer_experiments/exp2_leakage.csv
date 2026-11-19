@@ -1,0 +1,13 @@
+task,seed,split,train-val md5,train-val phash,train-val group,train-test md5,train-test phash,train-test group,val-test md5,val-test phash,val-test group
+humanitarian,15,random,45,114,511,52,133,507,20,44,172
+humanitarian,15,dedup,0,0,0,0,0,0,0,0,0
+humanitarian,42,random,39,119,508,60,139,493,15,32,167
+humanitarian,42,dedup,0,0,0,0,0,0,0,0,0
+humanitarian,123,random,53,118,496,46,130,469,17,39,166
+humanitarian,123,dedup,0,0,0,0,0,0,0,0,0
+damage,15,random,11,33,97,13,41,100,4,12,41
+damage,15,dedup,0,0,0,0,0,0,0,0,0
+damage,42,random,13,50,114,8,32,106,2,8,24
+damage,42,dedup,0,0,0,0,0,0,0,0,0
+damage,123,random,9,28,95,17,46,112,3,12,32
+damage,123,dedup,0,0,0,0,0,0,0,0,0
