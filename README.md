@@ -18,7 +18,6 @@ CrisisMMD++ audits CrisisMMD v2.0 (18,082 image–tweet pairs from seven disaste
 | `annotations++/` | The same annotations split by disaster event |
 | `CrisisMMD_v2_Annotations/` | Original annotations aligned with the LLM labels (used by Phase 3) |
 | `thesis_analysis_results/` | Result tables and figures from Phases 2–4 |
-| `CrisisMMD_Survey/` | Blind A/B human verification survey (web page, Google Apps Script backend, build script) |
 
 ## Setup
 
